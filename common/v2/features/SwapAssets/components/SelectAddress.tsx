@@ -7,9 +7,9 @@ import translate, { translateRaw } from 'v2/translations';
 import { AccountDropdown, InlineMessage, Typography } from 'v2/components';
 import { StoreAccount } from 'v2/types';
 import { StoreContext } from 'v2/services';
+import { SwapFromToDiagram } from 'v2/components/TransactionFlow/displays';
 
 import { getAccountsWithAssetBalance } from '../helpers';
-import { SwapFromToDiagram } from './fields';
 import { ISwapAsset } from '../types';
 
 const Label = styled(Typography)`
